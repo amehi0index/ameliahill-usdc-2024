@@ -151,7 +151,6 @@ if (test2result.Results.length == 2) {
     console.log("Received:", test2result.Results.length);
 }
 
-
 /** Test for case insensitivity. */
 const test3result = findSearchTermInBooks("ThE", twentyLeaguesIn); 
 if (test3result.Results.length == 2) {
